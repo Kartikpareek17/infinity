@@ -18,7 +18,7 @@ for name in files:
   
 print("K BOT HAS STARTED AND LOADED ALL PLUGINS")
 if __name__=="__main__":
-if len(argv) not in (1, 3, 4):
+ if len(argv) not in (1, 3, 4):
     bot.disconnect()
 else:
     bot.run_until_disconnected() 
